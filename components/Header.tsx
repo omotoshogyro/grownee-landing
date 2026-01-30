@@ -89,7 +89,7 @@ export default function Header() {
               Learn
             </Link>
             <Link 
-              href="#about" 
+              href="/about" 
               onClick={() => setIsMenuOpen(false)}
               className="block px-4 py-2 text-lg font-medium text-gray-900 hover:bg-gray-50 rounded-xl"
             >
