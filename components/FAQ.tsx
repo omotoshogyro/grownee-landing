@@ -8,32 +8,52 @@ const faqs = [
   {
     question: "What is Grownee?",
     answer:
-      "Grownee is your personal finance companion, built to help you save smarter, invest with confidence, and manage your budget effortlessly. It's designed to simplify money growth, all in one app.",
+      "Grownee is a budgeting and personal finance app that helps you track your income and expenses, understand your spending, and build better money habits over time.",
   },
   {
-    question: "Why should I join the waitlist?",
+    question: "Is Grownee free to use?",
     answer:
-      "By joining the waitlist, you'll get early access to Grownee, exclusive beta features, and special launch pricing. You'll also be among the first to experience our innovative approach to personal finance management.",
+      "Yes. The current version of Grownee is completely free to use.",
   },
   {
-    question: "Is Grownee safe to use?",
+    question: "Who is Grownee for?",
     answer:
-      "Absolutely! Grownee uses bank-level encryption and security measures to protect your financial data. We never store your banking credentials, and all data transmission is encrypted end-to-end.",
+      "Grownee is for students, young professionals, freelancers, and anyone who wants a simple and practical way to manage their money without complicated tools.",
   },
   {
-    question: "When will Grownee launch?",
+    question: "Do I need financial knowledge to use Grownee?",
     answer:
-      "We're currently in beta testing phase and plan to launch publicly in Q2 2026. Beta testers from the waitlist will get early access before the official launch.",
+      "No. Grownee is designed to be easy to use, even if you are new to budgeting or personal finance.",
   },
   {
-    question: "Who can join Grownee?",
+    question: "How do I track my expenses?",
     answer:
-      "Grownee is available to anyone who wants to take control of their financial future. Whether you're just starting out or already managing complex finances, Grownee adapts to your needs.",
+      "You can manually log your income and expenses inside the app. Grownee helps you categorize and understand your spending clearly.",
   },
   {
-    question: "How will I know when Grownee is ready?",
+    question: "Can Grownee connect to my bank account?",
     answer:
-      "We'll notify all waitlist members via email as soon as Grownee is ready for beta testing and again for the official launch. Make sure to check your email regularly for updates!",
+      "Not yet. Bank connections are not available in the current version. We are working on adding it in our next version.",
+  },
+  {
+    question: "Is my data safe?",
+    answer:
+      "Yes. We take data privacy and security seriously. Your information is protected and will never be shared without your permission.",
+  },
+  {
+    question: "Can I use Grownee on multiple devices?",
+    answer:
+      "Yes. You can access your account across supported devices once you log in.",
+  },
+  {
+    question: "Will Grownee add more features later?",
+    answer:
+      "Yes. Grownee will continue to improve over time. New features will be added based on user feedback and real financial needs.",
+  },
+  {
+    question: "How can I contact Grownee?",
+    answer:
+      "You can reach us through the contact page on our website or send an email to our support team for help and feedback (support@grownee.com).",
   },
 ];
 
