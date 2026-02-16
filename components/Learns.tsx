@@ -70,7 +70,7 @@ export default function Learns() {
         </motion.div>
 
         {/* Category Filters */}
-        <div className="flex overflow-x-auto md:flex-wrap md:justify-center gap-3 mb-12 pb-2 md:pb-0 no-scrollbar">
+        {/* <div className="flex overflow-x-auto md:flex-wrap md:justify-center gap-3 mb-12 pb-2 md:pb-0 no-scrollbar">
           {categories.map((category, index) => (
             <motion.button
               key={index}
@@ -87,7 +87,7 @@ export default function Learns() {
               {category}
             </motion.button>
           ))}
-        </div>
+        </div> */}
 
         {/* Articles Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
