@@ -1,160 +1,122 @@
 "use client";
 
-import { motion, AnimatePresence } from "framer-motion";
-import { Wallet, Eye, Target, Sparkles } from "lucide-react";
+import { motion } from "framer-motion";
 import Image from "next/image";
-import { useState } from "react";
 
 const features = [
   {
-    icon: Wallet,
-    title: "Track Everything",
-    description: "Your income & expenses",
-    image: "/first-slide.png",
+    icon: "/automatic_bank.svg",
+    title: "Automatic Bank Sync",
+    description:
+      "Connect up to 5 bank accounts and let Grownee automatically track every transaction. No manual entry needed.",
   },
   {
-    icon: Eye,
-    title: "Visibility",
-    description: "Get a monthly wrap",
-    image: "/second-slide.png",
+    icon: "/smart_budgeting.svg",
+    title: "Smart Budgeting",
+    description:
+      "Set budget by category and watch your spending in real-time. Get alerts when you're approaching your limits.",
   },
   {
-    icon: Target,
-    title: "Build Budget",
-    description: "Flexible category",
-    image: "/third-slide.png",
+    icon: "/financial_goals.svg",
+    title: "Financial Goals",
+    description:
+      "Set and track your savings goals, whether it's an emergency fund, vacation, or car, we'll help you get there.",
   },
   {
-    icon: Sparkles,
-    title: "Recommendation",
-    description: "Personalized insight",
-    image: "/fourth-slide.png",
+    icon: "/susbscription_tracker.svg",
+    title: "Subscription Tracker",
+    description:
+      "Never miss a subscription payment again. Track all your recurring expenses in one place and get alerts before renewals.",
+  },
+  {
+    icon: "/financial_report.svg",
+    title: "Historical Reports",
+    description:
+      "Access up to 2 years of budget history. Download unlimited reports anytime you need them.",
+  },
+  {
+    icon: "/tax_estimates.svg",
+    title: "Tax Estimates",
+    description:
+      "Get smart tax estimates based on your income and spending patterns so you're never caught off guard during filing season.",
+    tag: "Coming Soon",
   },
 ];
 
 export default function Features() {
-  const [selectedFeature, setSelectedFeature] = useState(0);
-
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-[210px] bg-white">
-      <div className="max-w-7xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
-        >
-          <p className="text-[13px] uppercase tracking-[0.2em] text-gray-500 mb-8 font-medium">
-            BUDGETING
-          </p>
-          <h2 className="text-[28px] sm:text-4xl lg:text-[42px] font-medium text-foreground mb-4 max-w-4xl mx-auto leading-tight">
-            We made tracking your spending and monitor your income the simplest
-            things to do.
+    <section id="features" className="py-24 px-[5%] bg-[#fdfcf9]">
+      <div className="flex items-end justify-between gap-8 flex-wrap mb-16">
+        <div>
+          <span
+            className="inline-block text-[0.72rem] font-bold tracking-[0.08em] uppercase px-4 py-1.5 rounded-full mb-[18px]"
+            style={{ background: "#e8f5ee", color: "#15B369" }}
+          >
+            Everything you need
+          </span>
+          <h2
+            className="font-display text-[#1a1a1a] tracking-tight"
+            style={{
+              fontSize: "clamp(2rem, 4vw, 3rem)",
+              lineHeight: 1.15,
+              letterSpacing: "-0.02em",
+            }}
+          >
+            Tools built around{" "}
+            <em className="italic" style={{ color: "#15B369" }}>
+              how you actually spend
+            </em>
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">
-            Effortlessly track all your expenses and income with our user-friendly
-            logging system, ensuring you never miss a detail.
+          <p className="text-[1rem] leading-[1.7] text-[#4a4a4a] max-w-[520px] mt-4">
+            From automatic budgeting to goal tracking, Grownee gives you the
+            tools to take control of your financial future.
           </p>
-        </motion.div>
-
-        <div 
-          className="rounded-[32px] p-6 md:p-12"
-          style={{
-            backgroundColor: '#F7FAF3',
-            boxShadow: '0 0 0 1px rgba(0, 0, 0, 0.05), 0 0 28px 0 rgba(0, 0, 0, 0.08)'
-          }}
-        >
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-            
-            {/* FEATURE SELECTION */}
-            <div className="w-full overflow-hidden lg:overflow-visible order-1">
-              
-              {/* MOBILE: Horizontal Scroll Nav */}
-              {/* Added 'overflow-x-auto' and 'touch-pan-x' for better mobile response */}
-              <div className="flex lg:hidden overflow-x-auto touch-pan-x gap-3 pb-6 no-scrollbar snap-x">
-                <div className="flex flex-nowrap gap-3 min-w-max">
-                  {features.map((feature, index) => (
-                    <button
-                      key={index}
-                      onClick={() => setSelectedFeature(index)}
-                      className={`flex-shrink-0 px-5 py-3 rounded-full flex items-center gap-3 transition-all border snap-start ${
-                        selectedFeature === index 
-                        ? "bg-white border-transparent shadow-sm" 
-                        : "bg-transparent border-[#E8EEE0]"
-                      }`}
-                    >
-                      <feature.icon className={`w-4 h-4 ${selectedFeature === index ? 'text-black' : 'text-gray-400'}`} />
-                      <span className="text-sm font-semibold whitespace-nowrap text-foreground">
-                        {feature.title}
-                      </span>
-                    </button>
-                  ))}
-                </div>
-              </div>
-
-              {/* DESKTOP: Vertical List */}
-              <div className="hidden lg:flex flex-col space-y-4">
-                {features.map((feature, index) => {
-                  const Icon = feature.icon;
-                  const isSelected = selectedFeature === index;
-                  return (
-                    <motion.button
-                      key={index}
-                      onClick={() => setSelectedFeature(index)}
-                      className="w-full flex items-center space-x-4 rounded-full px-6 py-4 transition-all text-left"
-                      style={
-                        isSelected
-                          ? {
-                              backgroundColor: '#FFFFFF',
-                              boxShadow: '0 4px 9px 0 rgba(0, 0, 0, 0.06), 0 0 0 1px rgba(0, 0, 0, 0.05)',
-                            }
-                          : {
-                              backgroundColor: 'transparent',
-                              border: '1px solid #E8EEE0',
-                            }
-                      }
-                    >
-                      <div className="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">
-                        <Icon className={`w-5 h-5 ${isSelected ? 'text-black' : 'text-gray-500'}`} />
-                      </div>
-                      <div>
-                        <h3 className="text-base font-semibold text-foreground">
-                          {feature.title}
-                        </h3>
-                        <p className="text-gray-600 text-sm">{feature.description}</p>
-                      </div>
-                    </motion.button>
-                  );
-                })}
-              </div>
-            </div>
-
-            {/* DYNAMIC IMAGE DISPLAY */}
-            <div className="order-2">
-              <AnimatePresence mode="wait">
-                <motion.div
-                  key={selectedFeature}
-                  initial={{ opacity: 0, scale: 0.98 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0.98 }}
-                  transition={{ duration: 0.3 }}
-                  className="relative rounded-[24px] lg:rounded-3xl overflow-hidden shadow-sm border border-black/5"
-                >
-                  <Image
-                    src={features[selectedFeature].image}
-                    alt={features[selectedFeature].title}
-                    width={600}
-                    height={500}
-                    className="w-full h-auto"
-                    priority
-                  />
-                </motion.div>
-              </AnimatePresence>
-            </div>
-
-          </div>
         </div>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {features.map((feat, i) => (
+          <motion.div
+            key={feat.title}
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: i * 0.08 }}
+            className="bg-white border rounded-3xl p-8 relative overflow-hidden group transition-all duration-300 hover:-translate-y-1"
+            style={{ borderColor: "rgba(6,50,29,0.14)" }}
+            whileHover={{ boxShadow: "0 12px 48px rgba(6,50,29,0.1)" }}
+          >
+            {/* Top accent line on hover */}
+            <div
+              className="absolute top-0 left-0 right-0 h-[3px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            />
+
+            <div className="w-12 h-12 mb-5">
+              <Image
+                src={feat.icon}
+                alt={feat.title}
+                width={48}
+                height={48}
+                className="w-full h-full object-contain"
+              />
+            </div>
+
+            <h3 className="text-[1.05rem] font-semibold text-[#1a1a1a] mb-2.5">
+              {feat.title}
+            </h3>
+            <p className="text-[0.88rem] leading-[1.65] text-[#4a4a4a]">
+              {feat.description}
+            </p>
+            {feat.tag && (
+              <span
+                className="inline-block mt-4 text-[0.68rem] font-bold tracking-[0.06em] uppercase px-2.5 py-1 rounded-full"
+                style={{ background: "#f5e9c8", color: "#c9a84c" }}
+              >
+                {feat.tag}
+              </span>
+            )}
+          </motion.div>
+        ))}
       </div>
     </section>
   );
