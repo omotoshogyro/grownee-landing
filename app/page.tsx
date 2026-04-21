@@ -21,7 +21,7 @@ export default function Home() {
       <HowItWorks />
       <Pricing />
       <Testimonials />
-      <LearnAnalyze />
+      {/* <LearnAnalyze /> */}
       <Learns />
       <FAQ />
       <CTABanner />
