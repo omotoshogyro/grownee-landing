@@ -2,11 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600;700;800&display=swap');
-
 :root {
-  --font-geist-sans: 'Albert Sans', system-ui, -apple-system, sans-serif;
-  --font-display: 'Albert Sans', system-ui, -apple-system, sans-serif;
+  --font-geist-sans: 'DM Sans', 'Albert Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Fraunces', Georgia, serif;
+
+  --green: #1a5f3f;
+  --green-mid: #2a7a52;
+  --green-light: #e8f5ee;
+  --gold: #c9a84c;
+  --gold-light: #f5e9c8;
+  --off-white: #f8f6f1;
+  --warm-white: #fdfcf9;
+  --charcoal: #1a1a1a;
+  --mid: #4a4a4a;
+  --muted: #8a8a8a;
+  --border: rgba(26,95,63,0.14);
 }
 
 * {

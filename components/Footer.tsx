@@ -124,9 +124,9 @@ export default function Footer() {
               <a href="/about" className="text-gray-200 text-[16px]">
                 About us
               </a>
-              <span className="px-2 py-0.5 bg-[#8FA99C] text-[#05180F] text-[10px] rounded-full font-bold uppercase tracking-wider">
+              {/* <span className="px-2 py-0.5 bg-[#8FA99C] text-[#05180F] text-[10px] rounded-full font-bold uppercase tracking-wider">
                 Not hiring
-              </span>
+              </span> */}
             </div>
 
             <div className="pt-4 flex flex-col space-y-5">

@@ -25,7 +25,7 @@ export default function AboutPage() {
           <div className="max-w-7xl mx-auto relative z-10">
             <div className="text-center max-w-3xl mx-auto mb-12">
               <p className="text-[13px] uppercase tracking-[0.2em] text-gray-500 mb-4 font-medium">
-                SAVE, INVEST AND BUDGET WISELY
+                Where financial discipline begins
               </p>
               <h1 className="text-4xl sm:text-5xl font-medium text-foreground mb-8">
                 About Grownee
@@ -49,31 +49,25 @@ export default function AboutPage() {
         {/* About Grownee Section - Dark Background */}
         <section className="bg-[#1a1a1a] py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
-            <motion.h2
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              className="text-3xl font-semibold text-white mb-12"
-            >
-              About Grownee
-            </motion.h2>
+          
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-[#AFE47C] rounded-3xl overflow-hidden mb-12 flex items-end justify-center"
+              className="bg-[#AFE47C] rounded-3xl overflow-hidden mb-12"
               style={{ height: '327px' }}
             >
-              <div className="max-w-sm px-8">
+              <div className="flex justify-center items-end h-full">
                 <Image
                   src="/about-phone.png"
                   alt="Grownee App"
-                  width={300}
-                  height={600}
-                  className="w-full h-auto"
+                  width={563}
+                  height={837}
+                  quality={100}
+                  sizes="200px"
+                  className="w-full max-w-[200px] h-auto"
                 />
               </div>
             </motion.div>
@@ -123,13 +117,15 @@ export default function AboutPage() {
               className="bg-[#AFE47C] rounded-3xl overflow-hidden mb-12"
               style={{ height: '327px' }}
             >
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-end h-full px-8">
+              <div className="grid grid-cols-3 gap-4 sm:gap-8 items-end h-full px-4 sm:px-8">
                 <div className="flex justify-center items-end h-full">
                   <Image
                     src="/what-grownee-1.png"
                     alt="Budget Summary"
-                    width={200}
-                    height={400}
+                    width={563}
+                    height={852}
+                    quality={100}
+                    sizes="200px"
                     className="w-full max-w-[200px] h-auto"
                   />
                 </div>
@@ -137,8 +133,10 @@ export default function AboutPage() {
                   <Image
                     src="/what-grownee-2.png"
                     alt="Income Overview"
-                    width={200}
-                    height={400}
+                    width={563}
+                    height={852}
+                    quality={100}
+                    sizes="200px"
                     className="w-full max-w-[200px] h-auto"
                   />
                 </div>
@@ -146,8 +144,10 @@ export default function AboutPage() {
                   <Image
                     src="/what-grownee-3.png"
                     alt="Expenses Breakdown"
-                    width={200}
-                    height={400}
+                    width={564}
+                    height={852}
+                    quality={100}
+                    sizes="200px"
                     className="w-full max-w-[200px] h-auto"
                   />
                 </div>

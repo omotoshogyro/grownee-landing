@@ -31,20 +31,20 @@ export default function Header() {
           {/* Desktop Navigation - Center (Floating Pill Style) */}
           <div className="hidden md:flex items-center absolute left-1/2 transform -translate-x-1/2">
             <div className="flex items-center bg-black rounded-full px-1.5 py-1.5 gap-1">
-              <Link 
-                href="#products" 
+              <Link
+                href="#how-it-works"
                 className="text-white text-[14px] font-medium px-5 py-2 rounded-full hover:bg-white/10 transition-all"
               >
-                Products
+                How it works
               </Link>
-              <Link 
-                href="#learn" 
+              <Link
+                href="#faq"
                 className="text-white text-[14px] font-medium px-5 py-2 rounded-full hover:bg-white/10 transition-all"
               >
-                Learn
+                FAQ
               </Link>
-              <Link 
-                href="/about" 
+              <Link
+                href="/about"
                 className="text-white text-[14px] font-medium px-5 py-2 rounded-full hover:bg-white/10 transition-all"
               >
                 About us
@@ -54,11 +54,11 @@ export default function Header() {
 
           {/* Join Beta - Right */}
           <div className="hidden md:block">
-  <Link 
-    href="#beta" 
+  <Link
+    href="#beta"
     className="bg-[#F1F1F1] text-gray-900 text-[15px] font-bold px-6 py-2.5 rounded-full hover:bg-gray-200 transition-all"
   >
-    Join Beta
+    Start Trial
   </Link>
 </div>
 
@@ -74,19 +74,19 @@ export default function Header() {
         {/* Mobile Menu Dropdown */}
         {isMenuOpen && (
           <div className="md:hidden py-6 border-t border-gray-100 bg-white space-y-4 shadow-xl rounded-b-2xl px-2">
-            <Link 
-              href="#products" 
+            <Link
+              href="#how-it-works"
               onClick={() => setIsMenuOpen(false)}
               className="block px-4 py-2 text-lg font-medium text-gray-900 hover:bg-gray-50 rounded-xl"
             >
-              Products
+              How it works
             </Link>
-            <Link 
-              href="#learn" 
+            <Link
+              href="#faq"
               onClick={() => setIsMenuOpen(false)}
               className="block px-4 py-2 text-lg font-medium text-gray-900 hover:bg-gray-50 rounded-xl"
             >
-              Learn
+              FAQ
             </Link>
             <Link 
               href="/about" 
@@ -96,12 +96,12 @@ export default function Header() {
               About us
             </Link>
             <div className="pt-4 border-t border-gray-100">
-              <Link 
-                href="#beta" 
+              <Link
+                href="#beta"
                 onClick={() => setIsMenuOpen(false)}
                 className="block px-4 py-3 text-center bg-[#15B369] text-white rounded-full font-semibold"
               >
-                Join Beta
+                Start Trial
               </Link>
             </div>
           </div>
