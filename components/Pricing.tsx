@@ -33,20 +33,6 @@ const plans = [
     cta: "Upgrade to Premium",
     btnClass: "green" as const,
   },
-  {
-    name: "Premium Plus",
-    monthly: "$9.99",
-    yearly: "$99.90",
-    featured: false,
-    features: [
-      "Automatic budgeting.",
-      "Connect up to 5 bank accounts.",
-      "5 years budget history.",
-      "Unlimited budget report downloads.",
-    ],
-    cta: "Upgrade to Plus",
-    btnClass: "green" as const,
-  },
 ];
 
 export default function Pricing() {
@@ -133,7 +119,7 @@ export default function Pricing() {
       </div>
 
       {/* Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-[960px] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[680px] mx-auto">
         {plans.map((plan, i) => (
           <motion.div
             key={plan.name}

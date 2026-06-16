@@ -19,10 +19,10 @@ export default function Home() {
       <TrustBar />
       <Features />
       <HowItWorks />
-      <Pricing />
+      {/* <Pricing /> */}
       <Testimonials />
       {/* <LearnAnalyze /> */}
-      <Learns />
+      {/* <Learns /> */}
       <FAQ />
       <CTABanner />
       <Footer />

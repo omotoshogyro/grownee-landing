@@ -4,42 +4,41 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const features = [
-  {
+{
     icon: "/automatic_bank.svg",
-    title: "Automatic Bank Sync",
+    title: "Log Income & Expenses",
     description:
-      "Connect up to 5 bank accounts and let Grownee automatically track every transaction. No manual entry needed.",
+      "Add every transaction in seconds. Categorise your spending your way — from rent and food to anything that matters in your life.",
   },
   {
     icon: "/smart_budgeting.svg",
-    title: "Smart Budgeting",
+    title: "Set Monthly Budgets",
     description:
-      "Set budget by category and watch your spending in real-time. Get alerts when you're approaching your limits.",
-  },
-  {
-    icon: "/financial_goals.svg",
-    title: "Financial Goals",
-    description:
-      "Set and track your savings goals, whether it's an emergency fund, vacation, or car, we'll help you get there.",
+      "Assign a budget to each category and watch your spending against it in real-time. Know exactly how much you have left before the month ends.",
   },
   {
     icon: "/susbscription_tracker.svg",
-    title: "Subscription Tracker",
+    title: "Smart Budget Alerts",
     description:
-      "Never miss a subscription payment again. Track all your recurring expenses in one place and get alerts before renewals.",
+      "Get notified when you're approaching your limits. Stay ahead of overspending before it happens — not after.",
   },
   {
     icon: "/financial_report.svg",
-    title: "Historical Reports",
+    title: "Spending Insights",
     description:
-      "Access up to 2 years of budget history. Download unlimited reports anytime you need them.",
+      "Clear visual breakdowns of where your money goes each month. Patterns you never noticed become impossible to ignore.",
+  },
+  {
+    icon: "/financial_goals.svg",
+    title: "Budget History",
+    description:
+      "Access your past months of budgets and see how your spending evolves over time. Build better habits month by month.",
   },
   {
     icon: "/tax_estimates.svg",
-    title: "Tax Estimates",
+    title: "Any Currency, Anywhere",
     description:
-      "Get smart tax estimates based on your income and spending patterns so you're never caught off guard during filing season.",
-    tag: "Coming Soon",
+      "Whether you earn in dollars, pounds, naira, euros, or anything else — Grownee works for you, wherever you are in the world.",
   },
 ];
 

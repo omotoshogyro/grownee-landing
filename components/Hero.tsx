@@ -27,7 +27,7 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-3xl mx-auto text-center">
         {/* Pill badge */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -43,7 +43,7 @@ export default function Hero() {
             style={{ background: "#15B369", animation: "heroPulse 2s infinite" }}
           />
           Now in Beta — Limited Spots
-        </motion.div>
+        </motion.div> */}
 
         {/* Headline */}
         <motion.h1

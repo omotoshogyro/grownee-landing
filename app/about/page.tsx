@@ -63,8 +63,10 @@ export default function AboutPage() {
                 <Image
                   src="/about-phone.png"
                   alt="Grownee App"
-                  width={200}
-                  height={400}
+                  width={563}
+                  height={837}
+                  quality={100}
+                  sizes="200px"
                   className="w-full max-w-[200px] h-auto"
                 />
               </div>
@@ -120,8 +122,10 @@ export default function AboutPage() {
                   <Image
                     src="/what-grownee-1.png"
                     alt="Budget Summary"
-                    width={200}
-                    height={400}
+                    width={563}
+                    height={852}
+                    quality={100}
+                    sizes="200px"
                     className="w-full max-w-[200px] h-auto"
                   />
                 </div>
@@ -129,8 +133,10 @@ export default function AboutPage() {
                   <Image
                     src="/what-grownee-2.png"
                     alt="Income Overview"
-                    width={200}
-                    height={400}
+                    width={563}
+                    height={852}
+                    quality={100}
+                    sizes="200px"
                     className="w-full max-w-[200px] h-auto"
                   />
                 </div>
@@ -138,8 +144,10 @@ export default function AboutPage() {
                   <Image
                     src="/what-grownee-3.png"
                     alt="Expenses Breakdown"
-                    width={200}
-                    height={400}
+                    width={564}
+                    height={852}
+                    quality={100}
+                    sizes="200px"
                     className="w-full max-w-[200px] h-auto"
                   />
                 </div>
