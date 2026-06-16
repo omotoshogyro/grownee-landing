@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const features = [
-{
+  {
     icon: "/automatic_bank.svg",
     title: "Log Income & Expenses",
     description:
@@ -106,14 +106,7 @@ export default function Features() {
             <p className="text-[0.88rem] leading-[1.65] text-[#4a4a4a]">
               {feat.description}
             </p>
-            {feat.tag && (
-              <span
-                className="inline-block mt-4 text-[0.68rem] font-bold tracking-[0.06em] uppercase px-2.5 py-1 rounded-full"
-                style={{ background: "#f5e9c8", color: "#c9a84c" }}
-              >
-                {feat.tag}
-              </span>
-            )}
+            
           </motion.div>
         ))}
       </div>
