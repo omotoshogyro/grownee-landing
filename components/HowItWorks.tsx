@@ -7,19 +7,19 @@ const steps = [
     number: "01",
     title: "Create Your Account",
     description:
-      "Sign up free in seconds. No credit card required. Just your email and a password and you're in.",
+      "Sign up free in seconds. No credit card needed to start your 14-day trial. Just an email and you're in.",
   },
   {
     number: "02",
-    title: "Connect Your Banks",
+    title: "Set Your Budget",
     description:
-      "Securely link your bank accounts in seconds. Grownee pulls your transactions automatically — safely and instantly.",
+      "Input your monthly budget total and split it across categories like rent, food, transport — or whatever fits your life.",
   },
   {
     number: "03",
-    title: "Set Your Budget",
+    title: "Log & Watch",
     description:
-      "Input your monthly budget, assign amounts to categories like rent, food, transport, and bills. Then watch Grownee track it all for you.",
+      "Add your income and expenses as they happen. Grownee tracks your progress and alerts you before you overspend.",
   },
 ];
 

@@ -8,52 +8,52 @@ const faqs = [
   {
     question: "What is Grownee?",
     answer:
-      "Grownee is a budgeting and personal finance app that helps you track your income and expenses, understand your spending, and build better money habits over time.",
+      "Grownee is a simple personal budgeting app. You log your income and expenses, set monthly budgets by category, and Grownee shows you clearly where your money goes — so you can make better financial decisions.",
   },
   {
-    question: "Is Grownee free to use?",
+    question: "Does it connect to my bank account?",
     answer:
-      "Yes. The current version of Grownee is completely free to use.",
+      "No — and that's intentional. Grownee is fully manual. You log your own transactions, which means your banking credentials never leave your hands. Simple, private, and secure by design.",
   },
   {
-    question: "Who is Grownee for?",
+    question: "What currencies does Grownee support?",
     answer:
-      "Grownee is for students, young professionals, freelancers, and anyone who wants a simple and practical way to manage their money without complicated tools.",
+      "All of them. Grownee works in any currency — dollars, pounds, euros, naira, or anything else. Just enter your amounts in whatever currency you use and Grownee handles the rest.",
   },
   {
-    question: "Do I need financial knowledge to use Grownee?",
+    question: "How does the 14-day free trial work?",
     answer:
-      "No. Grownee is designed to be easy to use, even if you are new to budgeting or personal finance.",
+      "Sign up and get full Pro access for 14 days — no credit card required. At the end of your trial, subscribe for $1/month (or ₦1,000/month) to keep your Pro features, or drop to the free plan with no charge.",
+  },
+  // {
+  //   question: "How do I track my expenses?",
+  //   answer:
+  //     "You can manually log your income and expenses inside the app. Grownee helps you categorize and understand your spending clearly.",
+  // },
+  // {
+  //   question: "Can Grownee connect to my bank account?",
+  //   answer:
+  //     "Not yet. Bank connections are not available in the current version. We are working on adding it in our next version.",
+  // },
+  // {
+  //   question: "Is my data safe?",
+  //   answer:
+  //     "Yes. We take data privacy and security seriously. Your information is protected and will never be shared without your permission.",
+  // },
+  // {
+  //   question: "Can I use Grownee on multiple devices?",
+  //   answer:
+  //     "Yes. You can access your account across supported devices once you log in.",
+  // },
+  {
+    question: "Can I cancel anytime?",
+    answer:
+      "Yes, always. No contracts, no cancellation fees. If you cancel, you keep Pro access until the end of your billing period, then move to the free plan automatically.",
   },
   {
-    question: "How do I track my expenses?",
+    question: "Is Grownee available on mobile?",
     answer:
-      "You can manually log your income and expenses inside the app. Grownee helps you categorize and understand your spending clearly.",
-  },
-  {
-    question: "Can Grownee connect to my bank account?",
-    answer:
-      "Not yet. Bank connections are not available in the current version. We are working on adding it in our next version.",
-  },
-  {
-    question: "Is my data safe?",
-    answer:
-      "Yes. We take data privacy and security seriously. Your information is protected and will never be shared without your permission.",
-  },
-  {
-    question: "Can I use Grownee on multiple devices?",
-    answer:
-      "Yes. You can access your account across supported devices once you log in.",
-  },
-  {
-    question: "Will Grownee add more features later?",
-    answer:
-      "Yes. Grownee will continue to improve over time. New features will be added based on user feedback and real financial needs.",
-  },
-  {
-    question: "How can I contact Grownee?",
-    answer:
-      "You can reach us through the contact page on our website or send an email to our support team for help and feedback (support@grownee.com).",
+      "Yes — Grownee is available on both iOS and Android. Download the app and pick up exactly where you left off.",
   },
 ];
 

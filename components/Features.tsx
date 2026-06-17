@@ -51,7 +51,7 @@ export default function Features() {
             className="inline-block text-[0.72rem] font-bold tracking-[0.08em] uppercase px-4 py-1.5 rounded-full mb-[18px]"
             style={{ background: "#e8f5ee", color: "#15B369" }}
           >
-            Everything you need
+            What you get
           </span>
           <h2
             className="font-display text-[#1a1a1a] tracking-tight"
@@ -61,14 +61,21 @@ export default function Features() {
               letterSpacing: "-0.02em",
             }}
           >
-            Tools built around{" "}
-            <em className="italic" style={{ color: "#15B369" }}>
-              how you actually spend
-            </em>
+            Everything you need to{" "}
+            
+          </h2>
+          <h2
+            className="font-display text-[#15B369] tracking-tight"
+            style={{
+              fontSize: "clamp(2rem, 4vw, 3rem)",
+              lineHeight: 1.15,
+              letterSpacing: "-0.02em",
+            }}
+          >
+              take control of your spending
           </h2>
           <p className="text-[1rem] leading-[1.7] text-[#4a4a4a] max-w-[520px] mt-4">
-            From automatic budgeting to goal tracking, Grownee gives you the
-            tools to take control of your financial future.
+            Simple, focused, and powerful. Grownee gives you the tools to understand your money — without the clutter.
           </p>
         </div>
       </div>

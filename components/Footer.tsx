@@ -85,12 +85,12 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="flex flex-col space-y-5 text-left items-start"
           >
-            <a
+            {/* <a
               href="#budget"
               className="text-gray-200 hover:text-[#AFE47C] transition-colors text-[16px]"
             >
               Budget
-            </a>
+            </a> */}
 
             <div className="flex items-center gap-2">
               <span className="text-gray-200 text-[16px]">Save</span>
@@ -106,12 +106,12 @@ export default function Footer() {
               </span>
             </div>
 
-            <a
+            {/* <a
               href="#learn"
               className="text-gray-200 hover:text-[#AFE47C] transition-colors text-[16px]"
             >
               Learn
-            </a>
+            </a> */}
 
             <a
               href="#faq"
@@ -138,7 +138,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="#privacy"
+                href="/terms"
                 className="text-gray-200 hover:text-[#AFE47C] transition-colors text-[16px]"
               >
                 Privacy Policy

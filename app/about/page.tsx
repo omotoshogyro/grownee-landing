@@ -51,7 +51,7 @@ export default function AboutPage() {
           <div className="max-w-6xl mx-auto">
           
 
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -70,7 +70,7 @@ export default function AboutPage() {
                   className="w-full max-w-[200px] h-auto"
                 />
               </div>
-            </motion.div>
+            </motion.div> */}
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -109,7 +109,7 @@ export default function AboutPage() {
               What Grownee Does
             </motion.h2>
 
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -152,7 +152,7 @@ export default function AboutPage() {
                   />
                 </div>
               </div>
-            </motion.div>
+            </motion.div> */}
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
