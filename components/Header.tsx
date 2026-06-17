@@ -32,13 +32,13 @@ export default function Header() {
           <div className="hidden md:flex items-center absolute left-1/2 transform -translate-x-1/2">
             <div className="flex items-center bg-black rounded-full px-1.5 py-1.5 gap-1">
               <Link
-                href="#how-it-works"
+                href="/#how-it-works"
                 className="text-white text-[14px] font-medium px-5 py-2 rounded-full hover:bg-white/10 transition-all"
               >
                 How it works
               </Link>
               <Link
-                href="#faq"
+                href="/#faq"
                 className="text-white text-[14px] font-medium px-5 py-2 rounded-full hover:bg-white/10 transition-all"
               >
                 FAQ

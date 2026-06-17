@@ -2,7 +2,7 @@
 
 const items = [
   {
-    label: "Built for real-world finance",
+    label: "iOS & Android",
     icon: (
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
         <path
@@ -14,7 +14,7 @@ const items = [
     ),
   },
   {
-    label: "Bank-grade data security",
+    label: "No bank connections needed",
     icon: (
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
         <rect x="2" y="6" width="12" height="8" rx="2" stroke="white" strokeWidth="1.4" />
@@ -23,7 +23,7 @@ const items = [
     ),
   },
   {
-    label: "Real-time transaction sync",
+    label: "Ready in 2 minutes",
     icon: (
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
         <path
@@ -36,7 +36,7 @@ const items = [
     ),
   },
   {
-    label: "Available worldwide",
+    label: "Works in any currency",
     icon: (
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
         <path

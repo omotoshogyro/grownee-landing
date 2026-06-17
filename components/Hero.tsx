@@ -25,25 +25,7 @@ export default function Hero() {
         }}
       />
 
-      <div className="relative z-10 max-w-3xl mx-auto text-center">
-        {/* Pill badge */}
-        {/* <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="inline-flex items-center gap-2 mb-7 px-4 py-1.5 rounded-full border text-xs font-bold tracking-widest uppercase"
-          style={{
-            background: "#e8f5ee",
-            borderColor: "rgba(21,179,105,0.25)",
-            color: "#15B369",
-          }}
-        >
-          <span
-            className="w-[7px] h-[7px] rounded-full"
-            style={{ background: "#15B369", animation: "heroPulse 2s infinite" }}
-          />
-          Now in Beta — Limited Spots
-        </motion.div> */}
+      <div className="relative z-10 max-w-3xl mx-auto text-center">  
 
         {/* Headline */}
         <motion.h1
@@ -57,9 +39,9 @@ export default function Hero() {
             letterSpacing: "-0.02em",
           }}
         >
-          Finally, a budget app built for{" "}
+          The simplest way to{" "}
           <em className="italic" style={{ color: "#15B369" }}>
-            your money realities
+            know where your money goes
           </em>
         </motion.h1>
 
@@ -70,9 +52,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-[1.05rem] leading-[1.7] text-[#4a4a4a] max-w-[520px] mx-auto mb-10"
         >
-          Track expenses, sync your bank accounts, and budget for every
-          category that matters — subscriptions, rent, savings goals, and
-          more — all in one place.
+         Log your income and expenses, set monthly budgets by category, and finally see your spending clearly — in any currency, from anywhere in the world.
         </motion.p>
 
         {/* CTAs */}
@@ -137,7 +117,7 @@ export default function Hero() {
           </div>
           <div className="text-[0.82rem] text-[#8a8a8a] leading-[1.4] pl-3 text-left">
             <strong className="text-[#1a1a1a] block">3,200+ people</strong>
-            already tracking their money smarter
+            already budgeting smarter with Grownee
           </div>
         </motion.div>
       </div>
