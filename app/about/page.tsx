@@ -245,6 +245,64 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* Meet the Founder Section - Dark Background */}
+        <section className="bg-[#1a1a1a] py-20 px-4 sm:px-6 lg:px-8 border-t border-gray-800">
+          <div className="max-w-6xl mx-auto">
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="text-3xl font-semibold text-white mb-12"
+            >
+              Meet the Founder
+            </motion.h2>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="grid md:grid-cols-[minmax(0,340px)_1fr] gap-px bg-gray-800 rounded-3xl overflow-hidden border border-gray-800"
+            >
+              {/* Photo */}
+              <div className="relative aspect-[4/5] md:aspect-auto md:min-h-[420px] bg-[#222]">
+                <Image
+                  src="/founder.jpg"
+                  alt="Oluwafemi Olaniyan"
+                  fill
+                  quality={100}
+                  sizes="(max-width: 768px) 100vw, 340px"
+                  className="object-cover object-top"
+                />
+              </div>
+
+              {/* Info */}
+              <div className="bg-[#1f1f1f] p-8 sm:p-12 flex flex-col justify-center">
+                <h3 className="text-2xl sm:text-[28px] font-semibold text-white mb-1.5">
+                  Oluwafemi Olaniyan
+                </h3>
+                <p className="text-[#AFE47C] text-[13px] font-semibold uppercase tracking-[0.15em] mb-6">
+                  Founder
+                </p>
+                <div className="space-y-4 text-gray-300">
+                  <p className="text-[15px] leading-relaxed">
+                    Oluwafemi founded Grownee with a simple belief: managing money
+                    should feel clear and approachable, not stressful or reserved for
+                    financial experts.
+                  </p>
+                  <p className="text-[15px] leading-relaxed">
+                    Drawing on his background in technology and product, he set out to
+                    build a budgeting experience designed for real people with real
+                    expenses — helping them understand their spending and build lasting
+                    financial habits, one day at a time.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </section>
+
         {/* FAQ Section */}
         <FAQ />
       </main>
