@@ -75,14 +75,14 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden py-6 border-t border-gray-100 bg-white space-y-4 shadow-xl rounded-b-2xl px-2">
             <Link
-              href="#how-it-works"
+              href="/#how-it-works"
               onClick={() => setIsMenuOpen(false)}
               className="block px-4 py-2 text-lg font-medium text-gray-900 hover:bg-gray-50 rounded-xl"
             >
               How it works
             </Link>
             <Link
-              href="#faq"
+              href="/#faq"
               onClick={() => setIsMenuOpen(false)}
               className="block px-4 py-2 text-lg font-medium text-gray-900 hover:bg-gray-50 rounded-xl"
             >
