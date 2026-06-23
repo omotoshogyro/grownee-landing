@@ -23,7 +23,7 @@ const faqs = [
   {
     question: "How does the 7-day free trial work?",
     answer:
-      "Sign up and get full Pro access for 7 days — no credit card required. At the end of your trial, subscribe for $1/month (or ₦1,000/month) to keep your Pro features, or drop to the free plan with no charge.",
+      "Sign up and get full Pro access for 7 days — no credit card required. At the end of your trial, subscribe to keep your Pro features.",
   },
   // {
   //   question: "How do I track my expenses?",
