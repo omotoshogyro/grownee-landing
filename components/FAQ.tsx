@@ -21,9 +21,9 @@ const faqs = [
       "All of them. Grownee works in any currency — dollars, pounds, euros, naira, or anything else. Just enter your amounts in whatever currency you use and Grownee handles the rest.",
   },
   {
-    question: "How does the 14-day free trial work?",
+    question: "How does the 7-day free trial work?",
     answer:
-      "Sign up and get full Pro access for 14 days — no credit card required. At the end of your trial, subscribe for $1/month (or ₦1,000/month) to keep your Pro features, or drop to the free plan with no charge.",
+      "Sign up and get full Pro access for 7 days — no credit card required. At the end of your trial, subscribe for $1/month (or ₦1,000/month) to keep your Pro features, or drop to the free plan with no charge.",
   },
   // {
   //   question: "How do I track my expenses?",
