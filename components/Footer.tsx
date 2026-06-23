@@ -62,6 +62,20 @@ export default function Footer() {
                   />
                 </a>
               </div>
+
+              {/* Powered by AWS */}
+              <div className="inline-flex items-center gap-2.5 bg-white/5 border border-white/10 rounded-full pl-4 pr-5 py-2 w-fit">
+                <span className="text-gray-400 text-[12px] font-medium">
+                  Powered by
+                </span>
+                <Image
+                  src="/aws-logo.svg"
+                  alt="AWS"
+                  width={42}
+                  height={26}
+                  className="h-[22px] w-auto"
+                />
+              </div>
             </div>
 
             {/* Large Brand Logo at the very bottom */}
