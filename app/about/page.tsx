@@ -269,7 +269,7 @@ export default function AboutPage() {
               <div className="relative aspect-[4/5] md:aspect-auto md:min-h-[420px] bg-[#222]">
                 <Image
                   src="/founder.jpg"
-                  alt="Oluwafemi Olaniyan"
+                  alt="Femi Olaniyan"
                   fill
                   quality={100}
                   sizes="(max-width: 768px) 100vw, 340px"
@@ -280,19 +280,19 @@ export default function AboutPage() {
               {/* Info */}
               <div className="bg-[#1f1f1f] p-8 sm:p-12 flex flex-col justify-center">
                 <h3 className="text-2xl sm:text-[28px] font-semibold text-white mb-1.5">
-                  Oluwafemi Olaniyan
+                  Femi Olaniyan
                 </h3>
                 <p className="text-[#AFE47C] text-[13px] font-semibold uppercase tracking-[0.15em] mb-6">
                   Founder
                 </p>
                 <div className="space-y-4 text-gray-300">
                   <p className="text-[15px] leading-relaxed">
-                    Oluwafemi founded Grownee with a simple belief: managing money
+                    Femi founded Grownee with a simple belief: managing money
                     should feel clear and approachable, not stressful or reserved for
                     financial experts.
                   </p>
                   <p className="text-[15px] leading-relaxed">
-                    Drawing on his background in technology and product, he set out to
+                    Drawing on his background in personal finance, he set out to
                     build a budgeting experience designed for real people with real
                     expenses — helping them understand their spending and build lasting
                     financial habits, one day at a time.
