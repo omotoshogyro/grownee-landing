@@ -1,10 +1,44 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+const title = "Grownee - Track Your Spending, Monitor Your Income";
+const description =
+  "Track your spending, monitor your income, investments, net worth and optimize your financial future.";
+
 export const metadata: Metadata = {
-  title: "Grownee - Track Your Spending, Monitor Your Income",
-  description: "Track your spending, monitor your income, investments, net worth and optimize your financial future.",
+  metadataBase: new URL("https://www.grownee.com"),
+  title,
+  description,
   keywords: ["finance", "budgeting", "investment", "expense tracking", "money management"],
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/apple-icon.png",
+  },
+  openGraph: {
+    type: "website",
+    siteName: "Grownee",
+    url: "https://www.grownee.com",
+    title,
+    description,
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Grownee",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
