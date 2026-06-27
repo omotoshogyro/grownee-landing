@@ -152,9 +152,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://admitted-nasturtium-cc1.notion.site/Privacy-Policy-26bdda95776780488854c35b111f9404?pvs=149"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/privacy"
                 className="text-gray-200 hover:text-[#AFE47C] transition-colors text-[16px]"
               >
                 Privacy Policy
