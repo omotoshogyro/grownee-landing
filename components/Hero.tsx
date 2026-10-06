@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import StoreBadges from "@/components/StoreBadges";
 
 const avatars = [
   { initial: "A", bg: "#2a7a52" },
@@ -57,30 +58,13 @@ export default function Hero() {
 
         {/* CTAs */}
         <motion.div
+          id="download"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="flex flex-wrap gap-3 items-center justify-center mb-12"
+          className="flex flex-wrap gap-3 items-center justify-center mb-12 scroll-mt-32"
         >
-          <a
-            href="#"
-            className="inline-flex items-center gap-2.5 px-7 py-4 rounded-full text-white font-semibold text-[0.95rem] transition-all hover:-translate-y-0.5"
-            style={{
-              background: "#15B369",
-              boxShadow: "0 4px 24px rgba(21,179,105,0.3)",
-            }}
-          >
-            Start Free Today
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path
-                d="M3 8h10M9 4l4 4-4 4"
-                stroke="currentColor"
-                strokeWidth="1.8"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </a>
+          <StoreBadges />
           <a
             href="#how-it-works"
             className="inline-flex items-center gap-2 px-5 py-4 rounded-full font-medium text-[0.92rem] border-[1.5px] transition-all hover:border-[#15B369] hover:text-[#15B369]"

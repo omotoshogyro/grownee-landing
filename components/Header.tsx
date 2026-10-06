@@ -52,14 +52,14 @@ export default function Header() {
             </div>
           </div>
 
-          {/* Join Beta - Right */}
+          {/* Start Trial - Right */}
           <div className="hidden md:block">
-  <Link
-    href="#beta"
+  <a
+    href="/download"
     className="bg-[#F1F1F1] text-gray-900 text-[15px] font-bold px-6 py-2.5 rounded-full hover:bg-gray-200 transition-all"
   >
     Start Trial
-  </Link>
+  </a>
 </div>
 
           {/* Mobile Menu Button */}
@@ -96,13 +96,13 @@ export default function Header() {
               About us
             </Link>
             <div className="pt-4 border-t border-gray-100">
-              <Link
-                href="#beta"
+              <a
+                href="/download"
                 onClick={() => setIsMenuOpen(false)}
                 className="block px-4 py-3 text-center bg-[#15B369] text-white rounded-full font-semibold"
               >
                 Start Trial
-              </Link>
+              </a>
             </div>
           </div>
         )}

@@ -34,7 +34,12 @@ export default function Footer() {
               </p>
 
               <div className="flex space-x-4">
-                <a href="#" className="hover:opacity-80 transition-opacity">
+                <a
+                  href="https://www.linkedin.com/company/grownee/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition-opacity"
+                >
                   <Image
                     src="/linkedin.svg"
                     alt="LinkedIn"
@@ -43,7 +48,12 @@ export default function Footer() {
                     className="w-5 h-5"
                   />
                 </a>
-                <a href="#" className="hover:opacity-80 transition-opacity">
+                <a
+                  href="https://www.instagram.com/growneeapp?igsh=MXduam8zbnp5cnZseA=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition-opacity"
+                >
                   <Image
                     src="/instagram.svg"
                     alt="Instagram"
@@ -52,7 +62,12 @@ export default function Footer() {
                     className="w-5 h-5"
                   />
                 </a>
-                <a href="#" className="hover:opacity-80 transition-opacity">
+                <a
+                  href="https://x.com/growneeapp?s=21&t=5ndmil_UgIjygzEhJtjfgw"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition-opacity"
+                >
                   <Image
                     src="/twitter.svg"
                     alt="X"
